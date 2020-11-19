@@ -1,0 +1,11 @@
+package com.project.bookstore.Login.model;
+
+import lombok.Getter;
+import lombok.Setter;
+
+@Getter
+@Setter
+public class LoginDTO {
+
+    private String username,pass;
+}

@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    platform: postgres
+    url: jdbc:postgresql://localhost:5432/book-store
+    username: postgres
+    password: 1234
+  logging:
+    file: logs/application.log
+    level.org.springframework.web: DEBUG
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: none
+  jackson:
+    property-naming-strategy: SNAKE_CASE
+
+server:
+  port: 8090
+
+
+
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: mymail@gmail.com
+    password: mypassword
+    protocol: smtp
+    tls: true
+    properties.mail.smtp:
+      auth: true
+      starttls.enable: true
+      ssl.trust: smtp.gmail.com
