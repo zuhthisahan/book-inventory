@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="1st commit after submission" />
+    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="1st commit after submission">
+      <change afterPath="$PROJECT_DIR$/.idea/book-store.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,8 +50,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -136,6 +144,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="53" key="#Plugins/0.0.1536.824@0.0.1536.824" timestamp="1605330898308" />
+    <state x="249" y="0" key="#Project_Structure" timestamp="1606554020407">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="249" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1606554020407" />
     <state x="883" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1605073529799">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -160,30 +172,38 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605169110964" />
-    <state x="395" y="0" key="CommitChangelistDialog2" timestamp="1605770575542">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1605771272023">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="395" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605770575542" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605771272023" />
     <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1605763170711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="549" y="130" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1605763170711" />
-    <state width="746" height="198" key="GridCell.Tab.0.bottom" timestamp="1605770834278">
+    <state x="645" y="310" key="Github.ShareDialog" timestamp="1605771176802">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1605770834278" />
-    <state width="746" height="198" key="GridCell.Tab.0.center" timestamp="1605770834278">
+    <state x="645" y="310" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1605771176802" />
+    <state x="521" y="110" key="Github.UntrackedFilesDialog" timestamp="1605771192932">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1605770834278" />
-    <state width="746" height="198" key="GridCell.Tab.0.left" timestamp="1605770834278">
+    <state x="521" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605771192932" />
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1606554012004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1605770834278" />
-    <state width="746" height="198" key="GridCell.Tab.0.right" timestamp="1605770834278">
+    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1606554012004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="746" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1605770834278" />
+    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
+    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1606554012003">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606554012003" />
+    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1606554012004">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605340250611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
