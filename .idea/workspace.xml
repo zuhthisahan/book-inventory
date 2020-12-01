@@ -22,8 +22,32 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Book-store-front/login" beforeDir="false" />
+    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="Add the database backup file">
+      <change afterPath="$PROJECT_DIR$/login/.eslintcache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/public/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/App.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/App.test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/components/books.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/components/home.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/components/login.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/components/nav.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/components/register.component.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/index.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/reportWebVitals.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/login/src/setupTests.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,12 +82,15 @@
     <option name="version" value="1" />
   </component>
   <component name="ProjectId" id="1jzfQrujcPHpBIiKrfNKfYjx3ak" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
@@ -180,7 +207,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606803350155</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Add the database backup file">
+      <created>1606803966177</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1606803966177</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -193,8 +227,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
@@ -204,7 +240,8 @@
     <MESSAGE value="Add front end part" />
     <MESSAGE value="Send email to all members" />
     <MESSAGE value="Send email to all members-2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Send email to all members-2" />
+    <MESSAGE value="Add the database backup file" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add the database backup file" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="80" key="#Illuminated_Cloud" timestamp="1604936796386">
@@ -243,10 +280,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605169110964" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606803349467">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606804839857">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606803349467" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606804839857" />
     <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1605763170711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -259,22 +296,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605771192932" />
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1606802347717">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1606804843643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
-    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1606802347717">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606804843643" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1606804843643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
-    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1606802347717">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606804843643" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1606804843643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
-    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1606802347717">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606804843643" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1606804843643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606804843643" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605340250611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -311,10 +348,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605770928982" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606803353436">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606803969371">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606803353436" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606803969371" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605770864305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
