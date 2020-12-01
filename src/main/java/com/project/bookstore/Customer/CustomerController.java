@@ -8,7 +8,7 @@ import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
 import javax.xml.ws.Action;
-
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("api/v1")
 @ResponseBody
@@ -20,9 +20,10 @@ public class CustomerController {
 
     @PreAuthorize("hasRole('Admin')")
     @GetMapping("/customer")
-    public ResponseEntity<Object> getCustomer() throws Exception {
+    public ResponseEntity<Object> getCustomers() throws Exception {
         return ResponseEntity.ok(customerEntityRepository.findAll());
     }
+
 
 
 }

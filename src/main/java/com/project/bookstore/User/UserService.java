@@ -49,8 +49,7 @@ public class UserService {
             return false;
         else {
 
-            if(userRegistrationDTO.getRole().equals("User"))
-            {
+
 
 
                 UsersEntity usersEntity = new UsersEntity();
@@ -66,7 +65,7 @@ public class UserService {
                 customerEntity.setUsername(userRegistrationDTO.getUsername());
                 customerEntity.setPassword(pass);
                 customerEntity.setPostalAddress(userRegistrationDTO.getPostalAddress());
-                customerEntity.setRole(userRegistrationDTO.getRole());
+                customerEntity.setRole("User");
                 customerEntity.setCreatedAt(LocalDateTime.now());
 
                 customerEntity.setEmail(userRegistrationDTO.getEmail());
@@ -78,15 +77,7 @@ public class UserService {
                 usersEntityRepository.save(usersEntity);
 
 
-            }else {
-                UsersEntity usersEntity = new UsersEntity();
-                usersEntity.setUsername(userRegistrationDTO.getUsername());
-                String pass = BCrypt.hashpw(userRegistrationDTO.getPassword(), BCrypt.gensalt());
-                usersEntity.setPassword(pass);
-                usersEntity.setRole("Admin");
-                usersEntityRepository.save(usersEntity);
 
-            }
             return true;
         }
     }

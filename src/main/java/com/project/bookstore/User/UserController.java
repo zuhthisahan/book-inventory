@@ -3,11 +3,13 @@ package com.project.bookstore.User;
 import com.project.bookstore.Discount.model.DiscountCreateDTO;
 import com.project.bookstore.Logs.model.LogsRepository;
 import com.project.bookstore.User.model.UserRegistrationDTO;
+import com.project.bookstore.User.model.UsersEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.access.prepost.PreAuthorize;
 import org.springframework.web.bind.annotation.*;
 
+@CrossOrigin(origins = "*", maxAge = 3600)
 @RestController
 @RequestMapping("api/v1")
 @ResponseBody
@@ -19,8 +21,10 @@ public class UserController {
     @Autowired
     private LogsRepository logsRepository;
 
-    @PreAuthorize("hasRole('Admin')")
-    @PostMapping("/user")
+    @Autowired
+    private UsersEntityRepository usersEntityRepository;
+
+    @PostMapping("/registration")
     public ResponseEntity<Object> addGuest(@RequestBody UserRegistrationDTO userRegistrationDTO) throws Exception {
         System.out.println( "coming");
         boolean out = userService.addGuest(userRegistrationDTO);
@@ -43,5 +47,9 @@ public class UserController {
         return ResponseEntity.ok(logsRepository.findAll());
     }
 
-
+    @PreAuthorize("hasRole('Admin') or hasRole('User')")
+    @GetMapping("/user/{name}")
+    public ResponseEntity<Object> getCustomer(@PathVariable("name") String name) throws Exception {
+        return ResponseEntity.ok(usersEntityRepository.findByUsername(name));
+    }
 }

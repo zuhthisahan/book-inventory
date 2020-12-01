@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="1st commit after submission">
-      <change afterPath="$PROJECT_DIR$/.idea/book-store.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Authorization/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Authorization/JwtResponse.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/BookController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/model/BookEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/model/BookEntityRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Config/WebSecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Customer/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Login/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Logs/model/LogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Logs/model/LogsRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/model/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/model/UserRegistrationDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +57,6 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.0" />
@@ -125,7 +130,21 @@
       <option name="project" value="LOCAL" />
       <updated>1605769484206</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="1st commit after submission">
+      <created>1606554058154</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606554058154</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2nd">
+      <created>1606554194236</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1606554194236</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -133,7 +152,8 @@
       <path value="$PROJECT_DIR$" />
     </ignored-roots>
     <MESSAGE value="1st commit after submission" />
-    <option name="LAST_COMMIT_MESSAGE" value="1st commit after submission" />
+    <MESSAGE value="2nd" />
+    <option name="LAST_COMMIT_MESSAGE" value="2nd" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="80" key="#Illuminated_Cloud" timestamp="1604936796386">
@@ -172,10 +192,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605169110964" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1605771272023">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606554193585">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1605771272023" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606554193585" />
     <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1605763170711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -188,22 +208,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605771192932" />
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom" timestamp="1606554012004">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1606763478459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
-    <state width="1493" height="198" key="GridCell.Tab.0.center" timestamp="1606554012004">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1606763478459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
-    <state width="1493" height="198" key="GridCell.Tab.0.left" timestamp="1606554012003">
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1606763478459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606554012003" />
-    <state width="1493" height="198" key="GridCell.Tab.0.right" timestamp="1606554012004">
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1606763478459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="198" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606554012004" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605340250611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -220,6 +240,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="1493" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1605340250611" />
+    <state x="349" y="147" key="IDE.errors.dialog" timestamp="1606554139263">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="349" y="147" key="IDE.errors.dialog/0.0.1536.824@0.0.1536.824" timestamp="1606554139263" />
     <state x="299" y="67" key="Maven.ArtifactSearchDialog" timestamp="1604812307233">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -236,10 +260,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605770928982" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1605769490562">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606554196490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1605769490562" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606554196490" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605770864305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -278,7 +302,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/project/bookstore/Login/LoginController.java</url>
-          <line>38</line>
+          <line>46</line>
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
