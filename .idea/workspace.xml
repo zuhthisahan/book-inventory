@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="">
+    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="final commit">
+      <change afterPath="$PROJECT_DIR$/Book-store-front/login" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Authorization/JwtResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Authorization/JwtResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/BookController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/BookController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/model/BookEntityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Book/model/BookEntityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Config/WebSecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Config/WebSecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Customer/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Customer/CustomerController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Login/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Login/LoginController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Logs/model/LogsRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/Logs/model/LogsRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/model/UserRegistrationDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/model/UserRegistrationDTO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +135,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606554194236</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="final commit">
+      <created>1606796815866</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1606796815866</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -153,7 +151,8 @@
     </ignored-roots>
     <MESSAGE value="1st commit after submission" />
     <MESSAGE value="2nd" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd" />
+    <MESSAGE value="final commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="80" key="#Illuminated_Cloud" timestamp="1604936796386">
@@ -192,10 +191,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605169110964" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606554193585">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606798148088">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606554193585" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606798148088" />
     <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1605763170711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -260,18 +259,18 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605770928982" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606554196490">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606796822475">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606554196490" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606796822475" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605770864305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1605770864305" />
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1605769462599">
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606798135672">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1605769462599" />
+    <state x="586" y="326" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1606798135672" />
     <state x="570" y="319" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1605763937333">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
