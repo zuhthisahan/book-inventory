@@ -22,8 +22,8 @@ server:
   mail:
     host: smtp.gmail.com
     port: 587
-    username: mymail@gmail.com
-    password: mypassword
+    username: zuhthisahan7@gmail.com
+    password: rkvolomuojrwpknp
     protocol: smtp
     tls: true
     properties.mail.smtp:

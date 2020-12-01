@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="final commit">
-      <change afterPath="$PROJECT_DIR$/Book-store-front/login" afterDir="false" />
+    <list default="true" id="1bcc6867-f40f-4123-921c-712bc57314b0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Book-store-front/login" beforeDir="false" afterPath="$PROJECT_DIR$/Book-store-front/login" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/project/bookstore/User/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -142,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1606796815866</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Add front end part">
+      <created>1606799284115</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1606799284115</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,7 +163,8 @@
     <MESSAGE value="1st commit after submission" />
     <MESSAGE value="2nd" />
     <MESSAGE value="final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+    <MESSAGE value="Add front end part" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add front end part" />
   </component>
   <component name="WindowStateProjectService">
     <state x="410" y="80" key="#Illuminated_Cloud" timestamp="1604936796386">
@@ -171,10 +183,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="883" y="167" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605073529799" />
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1605540319167">
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser" timestamp="1606802230004">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1605540319167" />
+    <state x="574" y="119" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1606802230004" />
     <state x="366" y="327" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604814085048">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -191,10 +203,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="499" y="159" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824@0.0.1536.824" timestamp="1605169110964" />
-    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606798148088">
+    <state x="415" y="0" key="CommitChangelistDialog2" timestamp="1606799283087">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606798148088" />
+    <state x="415" y="0" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1606799283087" />
     <state x="549" y="130" key="FileChooserDialogImpl" timestamp="1605763170711">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -207,22 +219,22 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="521" y="110" key="Github.UntrackedFilesDialog/0.0.1536.824@0.0.1536.824" timestamp="1605771192932" />
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1606763478459">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom" timestamp="1606802347717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1606763478459">
+    <state width="1493" height="251" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
+    <state width="1493" height="251" key="GridCell.Tab.0.center" timestamp="1606802347717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1606763478459">
+    <state width="1493" height="251" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
+    <state width="1493" height="251" key="GridCell.Tab.0.left" timestamp="1606802347717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
-    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1606763478459">
+    <state width="1493" height="251" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right" timestamp="1606802347717">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606763478459" />
+    <state width="1493" height="251" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1606802347717" />
     <state width="1493" height="261" key="GridCell.Tab.1.bottom" timestamp="1605340250611">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -259,10 +271,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="249" y="0" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1605770928982" />
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606796822475">
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1606799287490">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606796822475" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1606799287490" />
     <state x="93" y="93" width="1350" height="638" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1605770864305">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -287,10 +299,10 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="425" y="187" key="run.anything.popup/0.0.1536.824@0.0.1536.824" timestamp="1605334567478" />
-    <state x="758" y="202" width="672" height="678" key="search.everywhere.popup" timestamp="1605770905030">
+    <state x="758" y="202" width="672" height="678" key="search.everywhere.popup" timestamp="1606802130643">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="758" y="202" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1605770905030" />
+    <state x="758" y="202" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1606802130643" />
     <state x="567" y="98" key="svn.repositoryBrowser" timestamp="1605762902944">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

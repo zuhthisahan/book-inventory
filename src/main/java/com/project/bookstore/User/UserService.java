@@ -2,6 +2,7 @@ package com.project.bookstore.User;
 
 import com.project.bookstore.Customer.model.CustomerEntity;
 import com.project.bookstore.Customer.model.CustomerEntityRepository;
+import com.project.bookstore.Discount.EmailSenderService;
 import com.project.bookstore.Discount.model.DiscountCreateDTO;
 import com.project.bookstore.Discount.model.DiscountEntity;
 import com.project.bookstore.Discount.model.DiscountEntityRepository;
@@ -13,8 +14,6 @@ import com.project.bookstore.User.model.UserRegistrationDTO;
 import com.project.bookstore.User.model.UsersEntity;
 import com.project.bookstore.User.model.UsersEntityRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mail.SimpleMailMessage;
-import org.springframework.mail.javamail.JavaMailSender;
 import org.springframework.security.crypto.bcrypt.BCrypt;
 import org.springframework.stereotype.Service;
 
@@ -41,6 +40,10 @@ public class UserService {
 
     @Autowired
     private DiscountIdentificationMapRepository discountIdentificationMapRepository;
+
+    @Autowired
+    private EmailSenderService service;
+
 
 
 
@@ -115,13 +118,16 @@ public class UserService {
             discountIdentificationMapRepository.save(discountIdentificationMapEntity);
 
 
-            SimpleMailMessage msg = new SimpleMailMessage();
-            msg.setTo(object.getCustomerEntity().getEmail());
+//            SimpleMailMessage msg = new SimpleMailMessage();
+//            msg.setTo(object.getCustomerEntity().getEmail());
+//
+//            msg.setSubject("New Promotion Available");
+//            msg.setText("We've sent you the new promotion. Thank you");
+//
+//           // javaMailSender.send(msg);
 
-            msg.setSubject("New Promotion Available");
-            msg.setText("We've sent you the new promotion. Thank you");
-
-           // javaMailSender.send(msg);
+            // Send email to all member
+            service.sendMail(object.getCustomerEntity().getEmail(),"Hello!! New discount created..","Discount created");
 
 
         }

@@ -38,7 +38,7 @@ public class UserController {
     public ResponseEntity<Object> createDiscount(@RequestBody DiscountCreateDTO discountCreateDTO){
         System.out.println("coming initial");
         boolean out = userService.createDiscount(discountCreateDTO);
-        if (out) return ResponseEntity.ok("< Promotion Created Successfully >");
+        if (out) return ResponseEntity.ok("< Promotion Created Successfully and mal send to the members >");
         return ResponseEntity.badRequest().build();
     }
     @PreAuthorize("hasRole('Admin')")
